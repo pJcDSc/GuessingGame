@@ -10,7 +10,7 @@ int main() {
     int randNum = rand() % 100 + 1;
     int guess = 0;
     do {
-      cout << "Guess a number between 1 and 100" << endl;
+      cout << "Guess a number between 1 and 100!" << endl;
       cin >> guess;
       if (guess < randNum) cout << "Too low!" << endl;
       else if (guess > randNum) cout << "Too high!" << endl;
